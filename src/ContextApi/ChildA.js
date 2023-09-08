@@ -10,5 +10,5 @@ const ChildA = () => {
         </MyContext.Provider>
       </div>
     );
-  };amfbwjhf kfnm 
+  };
   export default ChildA;
