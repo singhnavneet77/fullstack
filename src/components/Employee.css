@@ -1,0 +1,18 @@
+.wrapper{
+    background-color: rgb(223, 66, 66);
+    border: 2px solid black;
+    margin:auto;
+    border-radius: 10px;
+    width:20%;
+    text-align: center;
+
+}
+.btn{
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 12px 10px;
+    padding: 5px;
+}
+.btn:hover{
+    background-color: rgb(206, 125, 125);
+}
