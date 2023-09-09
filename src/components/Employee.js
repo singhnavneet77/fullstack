@@ -25,8 +25,8 @@ function Employee(props){
     <hr></hr>
     <div>
         <p>count:{count}</p>
-        <button onClick={increment}>Increment</button>
-        <button onClick={decrement}>Decrement</button>
+        <button  onClick={increment}>Increment</button>
+        <button  onClick={decrement}>Decrement</button>
     </div>
     </div>
     );
