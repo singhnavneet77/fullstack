@@ -71,7 +71,7 @@ const submitHandler = (data) => {
           </div>
           <p className="error">{errors.password?.message}</p>
 
-          {/* <button >Submit</button> */}
+          <button >Submit</button>
         </div>
       </form>
     </div>
