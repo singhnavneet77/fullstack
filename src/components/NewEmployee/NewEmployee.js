@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import "./NewEmployee.css";
+import Employee from "../Employee";
 
 function NewEmployee() {
  const {
@@ -70,7 +71,7 @@ const submitHandler = (data) => {
           </div>
           <p className="error">{errors.password?.message}</p>
 
-          <button>Submit</button>
+          {/* <button >Submit</button> */}
         </div>
       </form>
     </div>
