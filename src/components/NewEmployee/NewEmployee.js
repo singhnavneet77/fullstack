@@ -3,15 +3,15 @@ import { useForm } from "react-hook-form";
 import "./NewEmployee.css";
 
 function NewEmployee() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
+ const {
+   register,
+  handleSubmit,
+  formState: { errors },
   } = useForm();
-  const [empInfo, setEmpInfo] = useState();
+const [empInfo, setEmpInfo] = useState();
 
-  const submitHandler = (data) => {
-    setEmpInfo(data);
+const submitHandler = (data) => {
+   setEmpInfo(data);
   };
 
   return (
