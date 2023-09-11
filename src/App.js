@@ -8,6 +8,7 @@ import Help from './components/ReactRouter/Help';
 import Policy from './components/ReactRouter/Policy';
 import Header from './components/Header/Header';
 import NewEmployee from "./components/NewEmployee/NewEmployee";
+import EmployeeTable from './components/EmployeeTable/EmployeeTable';
 Arrayexample.testArray();
   function App() {
     const empName = "Ashish Rautela";
@@ -56,6 +57,7 @@ Arrayexample.testArray();
       <Route path="/help" element={<Help></Help>}></Route>
       <Route path="/policy" element={<Policy></Policy>}></Route>
       <Route path="/newemployee" element={<NewEmployee></NewEmployee>}></Route>
+      <Route path="/myemployee" element={<EmployeeTable></EmployeeTable>}></Route>
     </Routes>
     
     <hr></hr>
