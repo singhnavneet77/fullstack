@@ -1,12 +1,12 @@
-.wrapper{
-    background-color: rgb(208, 189, 189);
-    border: 2px solid black;
-    margin:auto;
+.wrapper {
+    background-color: rgba(237, 147, 147, 0.336);
+    border: 1px solid #000;
     border-radius: 10px;
-    width:20%;
-    text-align: center;
-
-}
+    margin: auto;
+    width: 49%;
+    float: left;
+    margin-left: 6px;
+  }
 .btn{
     margin: 5px;
     border: 2px solid black;
