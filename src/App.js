@@ -59,14 +59,14 @@ Arrayexample.testArray();
       <Route path="/newemployee" element={<NewEmployee></NewEmployee>}></Route>
       <Route path="/myemployee" element={<EmployeeTable></EmployeeTable>}></Route>
     </Routes>
-    
+
     <hr></hr>
       <Employee
         empName={users[0].name}
         age={users[0].age}
         joiningDate={users[0].joinDate}
       ></Employee>
-      <hr></hr>
+     
        <Employee
         empName={users[1].name}
         age={users[1].age}

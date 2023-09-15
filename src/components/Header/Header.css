@@ -11,13 +11,14 @@ li {
   float: left;
 }
 
-li a {
+li a{
   display: block;
   color: white;
   text-align: center;
   padding: 18px 40px;
   text-decoration: none;
   font-size: 18px;
+  overflow: none;
 }
 
 li a:hover {

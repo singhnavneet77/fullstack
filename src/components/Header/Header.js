@@ -1,8 +1,8 @@
 import {Link} from "react-router-dom";
 import './Header.css'
 const Header = () => {
-    const headerLinks = [
-        {
+   const headerLinks = [
+       {
             link:"/about",
             text:"About",
         },
